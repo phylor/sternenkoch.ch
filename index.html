@@ -124,10 +124,24 @@
           margin-right: 1rem;
         }
       }
+
+      @media(min-width: 1250px) {
+        .consulting {
+          display: flex;
+        }
+
+        .consulting img {
+          margin-right: 1.5rem;
+        }
+
+        .consulting div p:first-child {
+          margin-top: 0;
+        }
+      }
     </style>
   </head>
   <body>
-    <div class="head"><img src="assets/logo.svg" /><h1>Sternenkoch</h1></div>
+    <div class="head"><img src="assets/logo.svg" alt="" /><h1>Sternenkoch</h1></div>
 
     <div class="container">
       <div class="content">
@@ -147,14 +161,19 @@
         </ul>
 
         <h2>Persönliche Beratung</h2>
-        <p>Eine astrologische, psychologische Beratung gibt Einblick in das eigene Lebensbuch.</p>
-        <p>Verschiedenste Lebensthemen können mit dem Geburtshoroskop erkannt und somit bewusster gelebt werden. Eine Beratung ist nicht nur für den Ernstfall oder eine Krisenlösung gedacht, sondern soll auch Impuls zur Auseinandersetzung mit sich selbst sein! Die persönliche Beratung kann ausserdem helfen, durch schwierige Entwicklungsphasen zu steuern!</p>
+        <div class="consulting">
+          <img src="assets/blutmond_rigi.jpg" alt="Rigi Blutmond" />
 
-        <strong>Erste persönliche Beratung</strong>
-        <p>Vorbereitungszeit, Radix, 1 ½ Std. Beratung: CHF 150.-
-        <p>Dauert die erste Sitzung länger als 1 ½ Std. wird nach Zeitaufwand verrechnet</p>
-        <p>Pro Std. CHF 60.-</p>
+          <div>
+            <p>Eine astrologische, psychologische Beratung gibt Einblick in das eigene Lebensbuch.</p>
+            <p>Verschiedenste Lebensthemen können mit dem Geburtshoroskop erkannt und somit bewusster gelebt werden. Eine Beratung ist nicht nur für den Ernstfall oder eine Krisenlösung gedacht, sondern soll auch Impuls zur Auseinandersetzung mit sich selbst sein! Die persönliche Beratung kann ausserdem helfen, durch schwierige Entwicklungsphasen zu steuern!</p>
 
+            <strong>Erste persönliche Beratung</strong>
+            <p>Vorbereitungszeit, Radix, 1 ½ Std. Beratung: CHF 150.-
+            <p>Dauert die erste Sitzung länger als 1 ½ Std. wird nach Zeitaufwand verrechnet</p>
+            <p>Pro Std. CHF 60.-</p>
+          </div>
+        </div>
       </div>
 
       <div class="sidebar">
